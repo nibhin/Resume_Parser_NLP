@@ -1,0 +1,11 @@
+Flask
+flask-cors
+firebase-admin
+gspread
+google-auth
+Werkzeug
+gunicorn
+spacy
+pdfminer.six
+numpy
+scikit-learn
