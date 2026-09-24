@@ -22,7 +22,7 @@ const VisualizationPage = () => {
       try {
         setLoading(true);
         console.log("Fetching visualization data...");
-        const response = await axios.get("http://127.0.0.1:5000/api/visualizations");
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/visualizations`);
         console.log("API Response:", response.data);
         
         // Ensure data has expected format
